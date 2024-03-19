@@ -1,0 +1,374 @@
+Unity Editor version:    2022.3.20f1 (61c2feb0970d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2 (Build 23C64)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/hiepnguyen/school-work/Chess-Unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62064
+Successfully changed project path to: /Users/hiepnguyen/school-work/Chess-Unity
+/Users/hiepnguyen/school-work/Chess-Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8033226752] Host "[IP] 192.168.1.109 [Port] 0 [Flags] 2 [Guid] 403025844 [EditorId] 403025844 [Version] 1048832 [Id] OSXEditor(0,Hieps-Air.attlocal.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8033226752] Host "[IP] 192.168.1.109 [Port] 0 [Flags] 2 [Guid] 403025844 [EditorId] 403025844 [Version] 1048832 [Id] OSXEditor(0,Hieps-Air.attlocal.net) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 15.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/hiepnguyen/school-work/Chess-Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56635
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004832 seconds.
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 673ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (222ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.530 seconds
+Domain Reload Profiling: 1223ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (250ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (274ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (531ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3544.
+Memory consumption went from 127.4 MB to 127.3 MB.
+Total: 4.492500 ms (FindLiveObjects: 0.141417 ms CreateObjectMapping: 0.070500 ms MarkObjects: 4.138916 ms  DeleteObjects: 0.140625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 734878.109739 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Knight.prefab
+  artifactKey: Guid(7248632fb471af143947a88a47eae959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Knight.prefab using Guid(7248632fb471af143947a88a47eae959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d15263c2384204c402b1abfbbd1ac4') in 0.994957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Knight.dae
+  artifactKey: Guid(69faab6ae9c00a848a82d036ac8c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Knight.dae using Guid(69faab6ae9c00a848a82d036ac8c75d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a27730cfe33a46a4b0ab0b3b78ec071') in 0.387335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Bishop.prefab
+  artifactKey: Guid(cd05c23b470229c44a8d53d6e86225f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Bishop.prefab using Guid(cd05c23b470229c44a8d53d6e86225f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fa6cbc04ebe13f84b2db15f66ba1b9') in 0.008802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab
+  artifactKey: Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Board.prefab using Guid(31270e9f38d5e7a448ae050b9633fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc60a136f5d1f1c75857e8f2119a2b0') in 0.006425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae
+  artifactKey: Guid(66ad00b166b914e47acce78daea25aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Bishop.dae using Guid(66ad00b166b914e47acce78daea25aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30185d4dadfb71cbeb65f5eeaab44bb2') in 0.013754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae
+  artifactKey: Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/White Rook.dae using Guid(695bd15b69d9eac408b599c22f9de55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5792801019a43ecb9c15d6d5ca8c6b7b') in 0.013342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab
+  artifactKey: Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab using Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0a64f53c29eadf861eb9f799d82027') in 0.006913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Pawn.prefab
+  artifactKey: Guid(48d5ea4ff810d0e4ea36af7235dd5fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Pawn.prefab using Guid(48d5ea4ff810d0e4ea36af7235dd5fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c587afe136443eb1e2a1ae0854bbb5') in 0.006388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab
+  artifactKey: Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab using Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5fd2840eb8ab4624dcbafef9e3e0d7') in 0.008460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab
+  artifactKey: Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab using Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7b199d4e03b3a7975a843b7d7d94b2') in 0.006416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab
+  artifactKey: Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Rook.prefab using Guid(9d3e9c36668dcfe44b524760a4c3a3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5872c72fd8e96745591a473228213dc4') in 0.007574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae
+  artifactKey: Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Models/Black Queen.dae using Guid(5d7a66b35fd81564380721b6bfcaaa47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e27a8d5e4d701161c315726cdbf13b3') in 0.010363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab
+  artifactKey: Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab using Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a49de7b5bb892bf7b7c61f25ca6b03') in 0.008002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab
+  artifactKey: Guid(6f38c700bedefe64f8364436528e5c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Queen.prefab using Guid(6f38c700bedefe64f8364436528e5c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7c1a0a57ed9fca9ea27df231cb163b') in 0.006579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab
+  artifactKey: Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab using Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996c155366dc836f8fcdd4684616c518') in 0.006895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White King.prefab
+  artifactKey: Guid(9e4e635002b6a524ca896adb28e8e388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White King.prefab using Guid(9e4e635002b6a524ca896adb28e8e388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4150e2a933f747628a23634f08399edd') in 0.007252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.621323 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat
+  artifactKey: Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Materials/Chess Material.mat using Guid(fdf806cb46d6a40418581d1568ff1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e063744e0d57f665b3081fb18e284839') in 0.050528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3534.076316 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab
+  artifactKey: Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Bishop.prefab using Guid(a71fd906a2159e247ab4d632e46947db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b3e05ed48a5c017bbe6aed2922bfd8') in 0.073754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Bishop.prefab
+  artifactKey: Guid(cd05c23b470229c44a8d53d6e86225f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Bishop.prefab using Guid(cd05c23b470229c44a8d53d6e86225f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df5d35dd3edf3be26d89946513c8837') in 0.012808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab
+  artifactKey: Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Pawn.prefab using Guid(edd4f3477fd5a8b4599bf6c0dac39f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ffc06fc07f2f1e21d158b8c29fb30c') in 0.006516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab
+  artifactKey: Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/White Rook.prefab using Guid(43ef2ba32fda59c42a1410ea490d494b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde124686a7a3102cc57d048269b027d') in 0.006251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab
+  artifactKey: Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Knight.prefab using Guid(b6c7ad354ac474944ba26b2895a59759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e971a03327515b8c96aaa372645aec3') in 0.007732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab
+  artifactKey: Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowpolyChessPack/Prefabs/Black Queen.prefab using Guid(1f7a3b3d104b8e44cb39f5356ae1d0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbc75328ade5e6c315d749964572242') in 0.008978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
