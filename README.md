@@ -1,4 +1,7 @@
 3D Chess Game made in Unity C# as a part of Computer Graphics course at UTD (Group Project). 
+Project Images:
+
+
 
 <img width="1440" alt="Screenshot 2024-12-01 at 1 31 51 AM" src="https://github.com/user-attachments/assets/6c8625f7-7285-4404-8324-db77eb3d1b59">
 
